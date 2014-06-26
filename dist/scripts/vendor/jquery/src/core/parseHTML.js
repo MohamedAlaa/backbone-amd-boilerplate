@@ -1,0 +1,1 @@
+define(["../core","./var/rsingleTag","../manipulation"],function(e,t){return e.parseHTML=function(n,r,i){if(!n||typeof n!="string")return null;typeof r=="boolean"&&(i=r,r=!1),r=r||document;var s=t.exec(n),o=!i&&[];return s?[r.createElement(s[1])]:(s=e.buildFragment([n],r,o),o&&o.length&&e(o).remove(),e.merge([],s.childNodes))},e.parseHTML});

@@ -1,0 +1,4 @@
+@import '../scripts/vendor/bootstrap/dist/css/bootstrap.css';
+.box {
+  background: red;
+}
