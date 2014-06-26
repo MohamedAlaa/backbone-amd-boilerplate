@@ -26,7 +26,7 @@ $ chmod +x app/build/build.sh
 
 When ready to build the project, run:
 
-    app/build/build.sh
+    $ app/build/build.sh
 
 this will create a new `dist` directory, copy the files over, run the r.js optimizer on assets, and clean it the file structure a bit for production. Refer to `app.build.js`for configuration options.
 
